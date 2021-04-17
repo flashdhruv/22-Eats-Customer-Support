@@ -19,3 +19,7 @@ Example: (french, NATIONALITY) (refund,O)
 Example: hi   UH, yes   UH, I   PRP, missing VBG
 5. Unit testing- The unit testing is for the developers to test on a small part of the whole program so it is easier to find mistakes and change them. The main idea of ours are testing whether the bot is working if users correctly type in the texts.\
 Example: To check if the user's input are valid. If users hit enter with nothing in the textbox the bot would tell the users "Please type something. We can't understand.".
+
+After A3
+For the final project, we were told to implement an API from a given list to the pre-existing bot we had worked on in A3.
+I chose to attempt to implement the PayPal API. The aim of this API is to allow transactions to occur. There are two new classes that have been added to the program. The main aim of OrderDetails is to receive the order details from the bot. The user inputs what they want, its price. This information is saved via setter methods and then utilised by the paymentSevices class. This can be done via an additional option on the menu. (option 7). 
